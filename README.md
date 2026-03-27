@@ -7,6 +7,20 @@ The system integrates high-level control logic, SDK communication, and data logg
 
 ---
 
+## 📸 Project Demo
+
+### 🦿 Walking Simulation
+<p align="center">
+  <img src="images/walking.png" width="500"/>
+</p>
+
+### 🤖 Pick and Place Task
+<p align="center">
+  <img src="images/pick_place.png" width="500"/>
+</p>
+
+---
+
 ## 🧠 Project Structure
 
 G1-Humanoid-Robot-Simulation/
@@ -15,6 +29,7 @@ G1-Humanoid-Robot-Simulation/
 ├── locomotion/       # Walking and movement control  
 ├── sdk/              # SDK interface and configuration  
 ├── data/             # Output data from simulation  
+├── images/           # Screenshots and visuals  
 ├── README.md  
 
 ---
