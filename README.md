@@ -1,32 +1,31 @@
-# G1-Humanoid-Robot-Simulation
-Simulation-based control and pick-and-place implementation of Unitree G1 humanoid robot using MuJoCo and Python.
-# G1 Humanoid Robot – Pick and Place Simulation
+# G1 Humanoid Robot – Simulation, Locomotion and Manipulation
 
 ## 📌 Overview
-This project demonstrates the simulation-based control and implementation of a pick-and-place task using the Unitree G1 humanoid robot.
+This project demonstrates simulation-based control and functional implementation of a G1 humanoid robot, focusing on both locomotion (walking) and manipulation (pick-and-place tasks).
 
-The system integrates robot control, SDK communication, and data logging to simulate real-world humanoid manipulation tasks.
+The system integrates high-level control logic, SDK communication, and data logging to simulate real-world humanoid robotic operations.
 
 ---
 
 ## 🧠 Project Structure
 
-
 G1-Humanoid-Robot-Simulation/
 │
-├── pick_and_place/ # Core manipulation logic
-├── sdk/ # SDK interface and configuration
-├── data/ # Output data from simulation
-
+├── pick_and_place/   # Core manipulation logic  
+├── locomotion/       # Walking and movement control  
+├── sdk/              # SDK interface and configuration  
+├── data/             # Output data from simulation  
+├── README.md  
 
 ---
 
 ## ⚙️ Features
+- Humanoid walking (locomotion control)  
 - Pick-and-place task implementation  
-- Humanoid robot control using Python  
+- Python-based robot control  
 - Integration with Unitree SDK  
-- Simulation-based testing (MuJoCo)  
-- Data logging using CSV  
+- Simulation using MuJoCo  
+- Data logging and analysis using CSV  
 
 ---
 
@@ -39,15 +38,17 @@ G1-Humanoid-Robot-Simulation/
 ---
 
 ## 📊 Results
-- Successfully simulated pick-and-place operations  
-- Generated motion and execution data in CSV format  
+- Successfully simulated humanoid walking behavior  
+- Implemented pick-and-place task execution  
+- Generated motion and execution data in CSV format for analysis  
 
 ---
 
 ## 🚀 Future Improvements
 - Vision-based object detection  
 - AI-based motion planning  
-- Real-time hardware deployment  
+- Real-time deployment on hardware  
+- Improved balance and dynamic gait control  
 
 ---
 
